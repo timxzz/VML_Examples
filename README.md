@@ -53,6 +53,8 @@ Other dependencies are in `requirements.txt`
 VML uses pretrained LLMs as excution engines. Hence, we need to have access to an LLM endpoint.
 This can be done through either the OpenAI endpoint (if you have an account), or open-source models such as Llama.
 
+(Of cource, you can also manually copy/paste the entire prompt into ChatGPT website to have a quick tryout without setting up the endpoints.)
+
 
 ### (a) OpenAI Endpoint
 To use LLMs service provided by OpenAI, you can copy your OpenAI API key to the variable `OPENAI_API_KEY`.
@@ -65,10 +67,10 @@ vLLM uses the same API interface as OpenAI.
 
 ```bash
 python -m vllm.entrypoints.openai.api_server \
---model Models/Meta-Llama-3-70B-Instruct \
+--model <HUGGINGFACE_MODEL_DIR> \
 --dtype auto \
 --api-key token-abc123 \
---tensor-parallel-size 8
+--tensor-parallel-size <NUMBER_OF_GPU>
 ```
 
 ## Step 2: VML Quickstart
