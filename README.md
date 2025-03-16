@@ -5,12 +5,22 @@
 
   [![Arxiv](https://img.shields.io/badge/arXiv-2406.04344-B31B1B.svg)](https://arxiv.org/abs/2406.04344)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Colab](https://img.shields.io/badge/Colab_Demo-ec740b.svg?logo=googlecolab)](https://colab.research.google.com/drive/1QFCt_DFM65szsWUSEPRnuEoLwzjDxUth?usp=sharing)
 
 </div>
 
 
 <br>
 
+
+
+
+## News
+- [2025/03/16] <a href='https://colab.research.google.com/drive/1QFCt_DFM65szsWUSEPRnuEoLwzjDxUth?usp=sharing' style='padding-left: 0.5rem;'><img src='https://colab.research.google.com/assets/colab-badge.svg' alt='Google Colab'></a> We created a Google Colab demo  for a quick hands-on for VML.
+- [2025/01/26] VML got accepted by [TMLR](https://openreview.net/forum?id=k3Ab6RuJE9)!
+
+
+## Introduction
 
 This repository provides toy examples demonstrating the concept of _Verbalized Machine Learning (VML)_ introduced by the paper:
 
@@ -32,7 +42,7 @@ The major advantages of VML include:
 
 ## TODO
 
-- [ ] Tutorial: Colab hands-on with linear regression
+- [x] Tutorial: Colab hands-on with linear regression
 - [x] Exp: Regression examples
     - [x] Linear
     - [x] Polynormial
